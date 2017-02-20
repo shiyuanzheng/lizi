@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	outline-style: none;
+}
+html{
+	background: #fafafa;
+	color: #34495e;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.w{
+	width: 1008px;
+	margin: 0 auto;
+}
+.bg{
+	background: #222;
+}
+a{
+	text-decoration: none;
+	color: #34495e;
+}
+i{
+	vertical-align: middle;
+}
+div{
+	display: block;
+}
+.cf:after{
+    content: "";
+    display: table;
+    clear: both;
+    opacity: 0;
+}
+.cf{
+    zoom:1;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*头部CSS*/
+.header{
+	width: 100%;
+	color: white;	
+}
+.header-con{
+	position: relative;
+}
+.logo{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.logo a{
+	width: 182px;
+	display: block;
+    height: 0;
+    padding-top: 68px;
+    overflow: hidden;
+    background: url(../img/login-register/login-logo.png) center 0 no-repeat #ff666b;
+}
+.header-left{
+	margin-left: 188px;	
+}
+.header-left a{
+	display: inline-block;
+	padding:20px 12px;
+	color: #eee;
+}
+.header-right{
+	padding: 20px 12px;
+}
+.header-right a{
+	padding: 20px 12px;
+	color: #eee;
+    margin-right: 3px;   
+}
+.header-con a:hover{
+	background-color: #444;
+    color: #fff;
+}
+/*中部登录部分*/
+.main{
+	width: 100%;
+	height: auto;
+	margin: 30px auto 50px;
+}
+.main-left{
+	background: url(../img/login-register/login-box-bg.jpg) ;
+	width: 500px;
+	height: 450px;
+}
+.login-con{
+	background: #FFFFFF;
+	padding: 15px 30px;
+	border: 1px solid #ccc;
+    box-shadow: 0 0 15px rgba(204,204,204,.5);
+    padding: 15px 30px;
+}
+.login-con h2.mb{
+	margin-bottom: 15px;
+}
+.login-con h2{
+	font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+}
+.trig{
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-top: 4px;
+}
+.trig a{
+	text-decoration: underline;
+}
+.login-input{
+	border: 1px solid #ccc;
+	padding: 7px;
+	margin-bottom: 24px;
+	line-height: 18px;
+    position: relative;
+    zoom: 1;
+}
+.login-input input{
+	border: none;
+	border-left:1px solid #ccc;
+	padding: 4px 6px;
+	width: 250px;
+}
+.login-input i{
+	font-size: 18px;
+	color: #ccc;
+	margin: 0 6px;
+}
+.register-input{
+	border: 1px solid #ccc;
+	padding: 7px;
+	line-height: 18px;
+}
+.register-input input{
+	border: none;
+	padding: 4px 6px;
+	width: 265px;
+}
+.validate-code{
+	width: 100px;
+	position: relative;
+}
+.register-input input.code-input{
+	width: 70px;
+}
+.send-code{
+	color: #666;
+    padding: 11px 20px;
+    top: -1px;
+    font-size: 12px;
+    right: -206px;
+    position: absolute;
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.protocol{
+	margin-top: 5px;
+}
+.protocol a{
+	color:#09f;
+}
+.protocol a:hover{
+	text-decoration: underline;
+}
+.error-box{
+	display: block;
+    height: 25px;
+    line-height: 24px;
+    _height: 20px;
+    _line-height: 20px;
+    color: #fe564b;
+    overflow: hidden;
+}
+.submit{
+	margin:10px 0 30px 0;
+}
+button{
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+	background: #ff666b;
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+.submit button{
+	letter-spacing: 7px;
+	padding: 16px 135px;	
+}
+.register-submit{
+	margin-bottom: 15px;
+}
+.register-submit button{	
+	padding: 21px 97px;
+	color: #FFFFFF;	
+}
+.share{
+	font-size: 0;
+	padding-bottom: 83px;
+}
+.share h5{
+	font-weight: normal;
+	padding-bottom: 18px;
+	font-size: 14px;
+    color: #999;
+}
+.share a{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+    vertical-align: top;
+    background: url(../img/login-register/other-login-bg.png) center no-repeat;
+    display: inline-block;
+    overflow: hidden;
+}
+.share a.qq{
+	background-position: -40px 0;
+}
+.share a.sina{
+	background-position: 0 0;
+}
+.share a.alipay{
+	background-position: -80px 0;
+}
